@@ -49,10 +49,11 @@ logo = """
 \033[1;92m   |  |  | (   ) || |   | |
 \033[1;92m|\_)  )  | )   ( || )   ( |
 \033[1;92m(____/   |/     \||/     \|
-\033[1;97m ========================================="
-\033[1;96m➣ Coded By : Jam Shahrukh
-\033[1;96m➣ YouTube  : Jam Shahrukh Technical
-\033[1;96m➣ Github   : https://github.com/jam"""
+\033[1;91m========================================="
+\033[1;94m➣ Coded By : Jam Shahrukh
+\033[1;94m➣ YouTube  : Jam Shahrukh Technical
+\033[1;94m➣ Github   : https://github.com/jam
+\033[1;91m========================================="""
 def tik():
 	titik = ['.   ','..  ','... ']
 	for o in titik:
@@ -68,11 +69,11 @@ vulnot = "\033[31mNot Vuln"
 vuln = "\033[32mVuln"
 os.system("clear")
 print "\033[1;97m ========================================="
-print  """\033[1;97m=======================================
-\033[1;91mOwNeR  \033[1;93m: \033[1;94mJAM SHAHRUKH
-\033[1;91mYouTube \033[1;93m: \033[1;94mJAM SHAHRUKH TECHNICAL
-\033[1;91mGitHub  \033[1;93m: \033[1;94mhttps://github.com/jam
-\033[1;97m======================================="""
+print  """\033[1;91m=======================================
+\033[1;92mOwNeR  \033[1;93m: \033[1;94mJAM SHAHRUKH
+\033[1;92mYouTube \033[1;93m: \033[1;94mJAM SHAHRUKH TECHNICAL
+\033[1;92mGitHub  \033[1;93m: \033[1;94mhttps://github.com/jam
+\033[1;91m======================================="""
 print " \x1b[1;97m=========================================="
 CorrectUsername = "jam"
 CorrectPassword = "jam"
